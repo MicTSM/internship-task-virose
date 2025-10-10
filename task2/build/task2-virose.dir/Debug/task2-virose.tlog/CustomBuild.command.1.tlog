@@ -1,0 +1,10 @@
+^C:\USERS\FROST\ROBOTIK\TASK2-VIROSE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frost/Robotik/task2-virose -BC:/Users/frost/Robotik/task2-virose/build --check-stamp-file C:/Users/frost/Robotik/task2-virose/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\FROST\ROBOTIK\TASK2-VIROSE\BUILD\CMAKEFILES\4D17680FDBE191FC72F5F1EE82818223\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/frost/Robotik/task2-virose -BC:/Users/frost/Robotik/task2-virose/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/frost/Robotik/task2-virose/build/RobotMotion.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

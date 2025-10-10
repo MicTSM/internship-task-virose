@@ -1,0 +1,3 @@
+C:/Users/frost/Robotik/task2-virose/build/CMakeFiles/task2-virose.dir
+C:/Users/frost/Robotik/task2-virose/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/frost/Robotik/task2-virose/build/CMakeFiles/ZERO_CHECK.dir
