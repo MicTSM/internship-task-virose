@@ -143,7 +143,7 @@ void process_perintah(const uint8_t* data, int len, int index_mac_asal) {
     String namaTujuan = mac_index_to_names(tujuan);
     String namaKu     = mac_index_to_names(mac_index_ku);
 
-    uint8_t pkt[64];
+    uint8_t pkt[100];
 
     switch (cmd) {
         case HALO:  // 0x00
